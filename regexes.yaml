@@ -1,6 +1,10 @@
 user_agent_parsers:
   #### SPECIAL CASES TOP ####
 
+  # nginx-amplify-agent
+  - regex: '(nginx-amplify-agent)\/(\d+).(\d+)-(\d+)'
+    family_replacement: 'amplify-agent'
+
   # @note: iOS / OSX Applications
   - regex: '(CFNetwork)(?:/(\d+)\.(\d+)\.?(\d+)?)?'
     family_replacement: 'CFNetwork'

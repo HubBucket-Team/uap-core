@@ -2209,6 +2209,20 @@ test_cases:
     patch:
     patch_minor:
 
+  - user_agent_string: 'TestApp/1.0 CFNetwork/808.1.4 Darwin/16.1.0'
+    family: 'iOS'
+    major: '10'
+    minor: '1'
+    patch:
+    patch_minor:
+
+  - user_agent_string: 'TestApp/1.0 CFNetwork/808.2.16 Darwin/16.3.0'
+    family: 'iOS'
+    major: '10'
+    minor: '2'
+    patch:
+    patch_minor:
+
   - user_agent_string: 'TestApp-tvOS/1.0-1'
     family: 'tvOS'
     major: '1'
@@ -2298,5 +2312,26 @@ test_cases:
     major: '9'
     minor: '2'
     patch: '1'
+    patch_minor:
+
+  - user_agent_string: 'Mozilla/5.0 (X11; Linux aarch64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.84 Safari/537.36 CrKey/1.22.74257'
+    family: 'Chromecast'
+    major: '1'
+    minor: '22'
+    patch: '74257'
+    patch_minor:
+
+  - user_agent_string: 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_3_4 like Mac OS X) AppleWebKit/601.1 (KHTML, like Gecko) Outlook-iOS-Android/1.0 Mobile/13G35 Safari/601.1.46")'
+    family: 'iOS'
+    major: '9'
+    minor: '3'
+    patch: '4'
+    patch_minor:
+
+  - user_agent_string: 'Mozilla/5.0+(Macintosh;+Intel+Mac+OS+X+10_11_6)+AppleWebKit/537.36+(KHTML,+like+Gecko)+Chrome/52.0.2743.116+Safari/537.36'
+    family: 'Mac OS X'
+    major: '10'
+    minor: '11'
+    patch: '6'
     patch_minor:
 

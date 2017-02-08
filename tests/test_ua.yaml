@@ -792,6 +792,12 @@ test_cases:
     minor: '4'
     patch:
 
+  - user_agent_string: 'Mozilla/5.0 (Unknown; Linux x86_64) AppleWebKit/534.34 (KHTML, like Gecko) PingdomTMS/0.8.5 Safari/534.34'
+    family: 'PingdomBot'
+    major: '0'
+    minor: '8'
+    patch: '5'
+
   - user_agent_string: 'Mozilla/3.0 (Planetweb/2.100 JS SSL US; Dreamcast US)'
     family: 'Planetweb'
     major: '2'
@@ -6987,3 +6993,20 @@ test_cases:
     minor: '83'
     patch:
 
+  - user_agent_string: 'Mozilla/5.0 (iPhone; CPU iPhone OS 9_3_4 like Mac OS X) AppleWebKit/601.1 (KHTML, like Gecko) Outlook-iOS-Android/1.0 Mobile/13G35 Safari/601.1.46")'
+    family: 'Outlook-iOS-Android'
+    major: '1'
+    minor: '0'
+    patch:
+
+  - user_agent_string: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/53.0.2785.21 Safari/537.36 MMS/1.0.2459.0'
+    family: 'Opera Neon'
+    major: '1'
+    minor: '0'
+    patch: '2459'
+
+  - user_agent_string: 'PANTECH-EUROPA-U4000-orange/1.0 Obigo/Q04C MMS/1.2.0 profile/MIDP-2.0 configuration/CLDC-1.1'
+    family: 'Obigo'
+    major: '04'
+    minor:
+    patch:
